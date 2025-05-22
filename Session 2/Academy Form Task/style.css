@@ -6,10 +6,10 @@
 }
 
 body {
-  display: flex;
+  /* display: flex; */
   height: 100vh;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   /* background: url(imgs/main_bg.jpg); */
   background: url(imgs/main_bg7.jpg);
   background-size: cover;
@@ -23,9 +23,9 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
   z-index: 1000;
 }
 .disclamer-container {
@@ -65,16 +65,14 @@ body {
   color: #fafafa;
 }
 
-/* Hide the form initially */
-/* #main-form {
-  display: none;
-} */
 .container {
   width: 100%;
   max-width: 700px;
   background: rgba(0, 0, 0, 0.6);
   padding: 28px;
-  margin: 0 28px;
+  /* margin: 0 28px; */
+  margin: auto;
+  max-height: fit-content;
   border-radius: 10px;
   box-shadow: inset -2px 2px 2px #9b9b9b;
 }
@@ -97,18 +95,18 @@ body {
 }
 
 .main-user-info {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
   padding: 20px 0;
 }
 
-.user-input-box:nth-child(2n) {
+/* .user-input-box:nth-child(2n) {
   justify-content: end;
-}
+} */
 
 .user-input-box {
-  width: 50%;
+  width: 100%;
   padding-bottom: 15px;
 }
 .email-box {
@@ -142,7 +140,7 @@ body {
 .user-input-box input,
 select {
   height: 40px;
-  width: 95%;
+  width: 97.5%;
   border-radius: 7px;
   outline: none;
   border: 1px solid grey;
@@ -184,54 +182,3 @@ select {
     background-position: center;
   }
 } */
-
-@media (max-width: 700px) {
-  /* body {
-    background-size: cover;
-    background-position: center;
-  } */
-  .container,
-  .logo,
-  .disclamer-container {
-    min-width: 300px;
-  }
-
-  .user-input-box,
-  .email-box {
-    margin-bottom: 12px;
-    width: 100%;
-  }
-  .email-box input {
-    width: 95%;
-  }
-  .main-user-info {
-    max-height: 380px;
-    overflow: auto;
-  }
-
-  .main-user-info::-webkit-scrollbar {
-    width: 0;
-  }
-}
-@media (max-width: 415px) {
-  .disclamer-container {
-    padding: 20px;
-  }
-  .disclamer-header {
-    font-size: 20px;
-  }
-  .disclamer-text {
-    font-size: 14px;
-  }
-  .logo {
-    min-width: 250px;
-  }
-}
-@media (max-width: 375px) {
-  .logo {
-    min-width: 200px;
-  }
-  .form-title {
-    font-size: 20px;
-  }
-}
