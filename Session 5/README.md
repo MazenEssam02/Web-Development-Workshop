@@ -15,3 +15,7 @@
 ## Task 5.4
 
 ![Strings Task](imgs/HTML_CSS_JS_task.png)
+
+## Bonus Task 5.5
+
+![Strings Task](imgs/Bonus_task.png)
