@@ -2,20 +2,20 @@
 
 ## Task 5.1
 
-![Basics Task](imgs/Functions_task.png)
+![Functions Task](imgs/Functions_task.png)
 
 ## Task 5.2
 
-![Numbers Task](imgs/Objects_task.png)
+![Objects Task](imgs/Objects_task.png)
 
 ## Task 5.3
 
-![Strings Task](imgs/DOM_task.png)
+![DOM Task](imgs/DOM_task.png)
 
 ## Task 5.4
 
-![Strings Task](imgs/HTML_CSS_JS_task.png)
+![HTML_CSS_JS Task](imgs/HTML_CSS_JS_task.png)
 
 ## Bonus Task 5.5
 
-![Strings Task](imgs/Bonus_task.png)
+![Bonus Task](imgs/Bonus_task.jpg)
