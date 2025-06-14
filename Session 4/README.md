@@ -1,25 +1,25 @@
 # Tasks
 
-## Task 1
+## Task 4.1
 
-![Basics Task](images/Basics_tasks.png)
+![Basics Task](imgs/Basics_tasks.png)
 
-## Task 2
+## Task 4.2
 
-![Numbers Task](images/Numbers_Tasks.png)
+![Numbers Task](imgs/Numbers_Tasks.png)
 
-## Task 3
+## Task 4.3
 
-![Strings Task](images/Strings_tasks.png)
+![Strings Task](imgs/Strings_tasks.png)
 
-## Task 4
+## Task 4.4
 
-![HTML CSS JS Task](images/html_css_js_tasks.png)
+![HTML CSS JS Task](imgs/html_css_js_tasks.png)
 
-## Task 5
+## Task 4.5
 
-![Variables Task](images/Variables_tasks.png)
+![Variables Task](imgs/Variables_tasks.png)
 
-## Task 6
+## Task 4.6
 
-![Conditions Task](images/Conditions_task.png)
+![Conditions Task](imgs/Conditions_task.png)
