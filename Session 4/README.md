@@ -1,3 +1,4 @@
-![alt text](\images\Basics.png)
-![alt text](\images\NumbersTasks.png)
-![alt text](\images\Strings.png)
+# Tasks
+![Task 1](images/Basics.png)
+![Task 2](images/NumbersTasks.png)
+![Task 3](images/Strings.png)
