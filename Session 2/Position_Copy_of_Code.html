@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .h2-red {
+      color: rgb(250, 0, 0);
+    }
+
+    .h2-white,
+    .p-white {
+      color: rgb(255, 255, 255);
+      background-color: rgb(255, 0, 0);
+    }
+
+    #div-fixed {
+      position: fixed;
+      width: 100%;
+      color: rgb(255, 255, 255);
+      background-color: rgb(38, 37, 37);
+      z-index: 1;
+
+    }
+
+    .header-link {
+      color: white;
+    }
+
+    .large-div {
+      height: 100vh;
+      position: relative;
+      background-color: gray
+    }
+
+    .bottom-left-div {
+      position: absolute;
+      bottom: 0px;
+    }
+
+    .sticky-div {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background-color: blueviolet
+    }
+
+    .grey-box-class {
+      height: 100vh;
+      background-color: rgb(195, 195, 195)
+    }
+
+    div p {
+      color: blue;
+    }
+
+    button {
+      background-color: aqua;
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="div-fixed">
+    <a href="#greyBox" class="header-link"> go to greyBox</a>
+  </div>
+  <!-- <p class="p-white">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+  </p> -->
+  <div class="large-div">
+
+    <p class="bottom-left-div">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+  <div class="sticky-div">
+
+    <img src="https://idnidn.com" alt="Bear">
+  </div>
+  <div id="greyBox" class="grey-box-class">
+
+    <a href=" youtube.com">Youtube</a>
+  </div>
+  <br>
+  <div>
+
+    <button>Sign up</button>
+    <button>Sign in</button>
+  </div>
+</body>
+
+</html>

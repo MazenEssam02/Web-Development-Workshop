@@ -18,16 +18,17 @@ body {
   background: rgba(0, 0, 0, 0.6);
   padding: 28px;
   /* margin: 0 28px; */
-  margin: auto;
-  max-height: fit-content;
+  /* margin: auto; */
+  height: fit-content;
   border-radius: 10px;
   box-shadow: inset -2px 2px 2px #9b9b9b;
 }
 
 .logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
   width: 60%;
 }
 
@@ -49,49 +50,37 @@ body {
   width: 100%;
   padding-bottom: 15px;
 }
+.user-input-box label,
+.email-box label {
+  display: block;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 2px 0;
+}
+.user-input-box input,
+select {
+  height: 40px;
+  width: 100%;
+  border-radius: 7px;
+  outline: none; /* to remove outline that shows when active*/
+  border: 1px solid grey;
+  padding: 0 10px;
+  appearance: none;
+}
 .email-box {
   width: 100%;
   padding-bottom: 15px;
 }
 .email-box input {
-  width: 97.5%;
+  width: 100%;
   height: 40px;
   border-radius: 7px;
   outline: none;
   border: 1px solid grey;
   padding: 0 10px;
 }
-.email-box label {
-  width: 95%;
-  color: #fafafa;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 5px 0;
-}
 
-.user-input-box label {
-  width: 95%;
-  color: #fafafa;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 5px 0;
-}
-
-.user-input-box input,
-select {
-  height: 40px;
-  width: 97.5%;
-  border-radius: 7px;
-  outline: none;
-  border: 1px solid grey;
-  padding: 0 10px;
-}
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding: 8px 30px 8px 10px; /* Add space for dropdown arrow */
-}
 .form-submit-btn input {
   cursor: pointer;
 }
@@ -103,13 +92,13 @@ select {
 .form-submit-btn input {
   display: block;
   width: 100%;
-  margin-top: 10px;
   font-size: 20px;
   padding: 10px;
   border: none;
   border-radius: 3px;
   color: #ccc;
   background: rgba(65, 105, 225, 0.7);
+  transition: 300ms ;
 }
 
 .form-submit-btn input:hover {
