@@ -5,100 +5,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task 1</title>
+
   <style>
     * {
-      padding: 0;
-      margin: 0;
+      padding: 0px;
+      margin: 0px;
       box-sizing: border-box;
-    }
-
-    .h2-red {
-      color: rgb(250, 0, 0);
-    }
-
-    .h2-white,
-    .p-white {
-      color: rgb(255, 255, 255);
-      background-color: rgb(255, 0, 0);
-    }
-
-    #div-fixed {
-      position: fixed;
-      width: 100%;
-      color: rgb(255, 255, 255);
-      background-color: rgb(38, 37, 37);
-      z-index: 1;
-
-    }
-
-    .header-link {
-      color: white;
-    }
-
-    .large-div {
-      height: 100vh;
-      position: relative;
-      background-color: gray
-    }
-
-    .bottom-left-div {
-      position: absolute;
-      bottom: 0px;
     }
 
     .sticky-div {
       position: sticky;
       top: 0;
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      width: 100vw;
       z-index: 2;
-      background-color: blueviolet
     }
 
-    .grey-box-class {
-      height: 100vh;
-      background-color: rgb(195, 195, 195)
+    .fixed-div {
+      z-index: 1;
+      position: fixed;
+      background-color: red;
+      padding: 20px;
+      width: 100vw;
     }
 
-    div p {
-      color: blue;
+    .large-div {
+      position: relative;
+      height: 3400px;
+      background-color: gray;
     }
 
-    button {
-      background-color: aqua;
-      border-color: white;
-      border-width: 1px;
-      border-style: solid;
-      border-radius: 30px;
+    .large-div2 {
+      height: 2400px;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .abs-div {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      width: 20px;
+      height: 20px;
+      background-color: blue;
     }
   </style>
 </head>
 
 <body>
-  <div id="div-fixed">
-    <a href="#greyBox" class="header-link"> go to greyBox</a>
-  </div>
-  <!-- <p class="p-white">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-  </p> -->
-  <div class="large-div">
 
-    <p class="bottom-left-div">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    </p>
+  <div class="fixed-div">
+    <a href=""> Home</a>
+  </div>
+  <div class="large-div">
+    <div class="abs-div"></div>
   </div>
   <div class="sticky-div">
-
-    <img src="https://idnidn.com" alt="Bear">
+    <a href=""> Home</a>
   </div>
-  <div id="greyBox" class="grey-box-class">
+  <div class="large-div2">
 
-    <a href=" youtube.com">Youtube</a>
   </div>
-  <br>
-  <div>
 
-    <button>Sign up</button>
-    <button>Sign in</button>
-  </div>
+
 </body>
 
 </html>
