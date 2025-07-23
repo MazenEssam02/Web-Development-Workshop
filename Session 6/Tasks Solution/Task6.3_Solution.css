@@ -1,9 +1,19 @@
 body {
   background-color: rgb(25, 25, 25);
   color: white;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.frame {
+  min-width: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px white solid;
+}
 .title {
   font-size: 30px;
   font-weight: bold;
@@ -34,17 +44,22 @@ body {
 }
 
 .reset-score-button,
-.auto-play-button,
-/* Solution for exercise 12x. */
-.reset-confirm-button {
+.auto-play-button {
   background-color: white;
   border: none;
   font-size: 15px;
   padding: 8px 15px;
   cursor: pointer;
 }
-
-/* Solution for exercise 12x. */
+.reset {
+  display: flex;
+  align-items: center;
+}
 .reset-confirm-button {
   margin-left: 10px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 20px;
+  cursor: pointer;
 }
